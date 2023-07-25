@@ -114,3 +114,65 @@ footer p {
   margin: 10px 10px;
 }
 /*Footer*/
+
+/* Responsive*/
+/*Responsive - general*/
+@media (max-width: 600px) {
+  main {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    position: static;
+  }
+}
+/*Responsive - general*/
+
+/*iPhone XR */
+@media (width: 414px) and (height: 896px) {
+  footer {
+    position: fixed;
+  }
+}
+
+/*iPhone 12 pro */
+@media (width: 390px) and (height: 844px) {
+  footer {
+    position: fixed;
+  }
+}
+
+/*pixel 5 */
+@media (width: 393px) and (height: 851px) {
+  footer {
+    position: fixed;
+  }
+}
+
+/*Samsung Galaxy S20 Ultra*/
+@media (width: 412px) and (height: 915px) {
+  footer {
+    position: fixed;
+  }
+}
+
+/*Samsung Galaxy A51/71*/
+@media (width: 412px) and (height: 914px) {
+  footer {
+    position: fixed;
+  }
+}
+
+/*Nest Hub*/
+@media (width: 1024px) and (height: 600px) {
+  header,
+  section,
+  footer {
+    padding: 0;
+  }
+
+  footer {
+    position: fixed;
+  }
+}
+/* Responsive*/
