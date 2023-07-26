@@ -102,7 +102,8 @@
           Soy Bruno, un apasionado de la programacion y el diseño de
           aplicaciones. Lo que me motiva es la posibilidad de crear aplicaciones
           y sitios web que sean tanto atractivos como funcionales para los
-          usuarios. Actualmente estoy cursando el winterhack 2023 donde potenciamos nuestra creatividad.
+          usuarios. Actualmente estoy cursando el winterhack 2023 donde
+          potenciamos nuestra creatividad.
         </p>
         <ul class="button-list">
           <li><a href="#">Tienda</a></li>
@@ -111,9 +112,21 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer itemscope itemtype="https://schema.org/Organization">
       <div class="footer-line"></div>
-      <p>jimmybr1&copy; - 2023</p>
+      <span itemprop="name">jimmybr1&copy; - 2023</span>
+      <div
+        itemprop="address"
+        itemscope
+        itemtype="https://schema.org/PostalAddress"
+        class="footerMicroFormats"
+      >
+        Main address:
+        <span itemprop="streetAddress">Calle Falsa 123</span>
+        <span itemprop="postalCode">A-113</span>
+        <span itemprop="addressLocality">Springfield, Oregon</span>
+        <span itemprop="telephone">Tel: 764-84377 </span>
+      </div>
     </footer>
   </body>
 </html>
